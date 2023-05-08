@@ -1,0 +1,31 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "6641bdf1-68eb-49d2-bc85-ec04e20b5915",
+        "ProjectName": "batu",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "baturayozcan",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null
+    }
+  ],
+  "GlobalConfigurations": null
+}
