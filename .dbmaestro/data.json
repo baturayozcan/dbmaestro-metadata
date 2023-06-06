@@ -96,6 +96,18 @@
                     "userName": "DOP_DRYRUN",
                     "Password": "7//TtGu6ICevnElKqvkVnHFtDOHH6rAno5xhfmKjdQE="
                   }
+                },
+                {
+                  "BranchName": "f1",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "172.31.88.65",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB",
+                    "userName": "DOP_DRYRUN",
+                    "Password": "7//TtGu6ICevnElKqvkVnHFtDOHH6rAno5xhfmKjdQE="
+                  }
                 }
               ],
               "RepositoryCredentials": {
