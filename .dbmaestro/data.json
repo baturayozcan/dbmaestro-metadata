@@ -21,6 +21,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "03fe9202-ca3d-4bf8-acb0-69b256bcfcbd",
+                "DatabaseAliasName": "DOP_DRYRUN",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/baturayozcan/dbmaestro-dop-dryrun",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -28,11 +39,16 @@
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
           "PreventCommitObjectWithConflict": false,
-          "UseCache": null
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
         },
         "ProjectArchitecture": 0,
         "LocalDirectory": ""
@@ -63,6 +79,29 @@
                 "UserName": "baturayozcan",
                 "Password": "qeYkwytp4gKkPAZbq9pMQEHUUs8gpJyPPaB5g0KPVYEy24OPJQolOP58j1NCfAC1"
               }
+            },
+            {
+              "DatabaseId": "03fe9202-ca3d-4bf8-acb0-69b256bcfcbd",
+              "DatabaseAliasName": "DOP_DRYRUN",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "172.31.88.65",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "ORCLPDB",
+                    "userName": "DOP_DRYRUN",
+                    "Password": "7//TtGu6ICevnElKqvkVnHFtDOHH6rAno5xhfmKjdQE="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "baturayozcan",
+                "Password": "qeYkwytp4gKkPAZbq9pMQEHUUs8gpJyPPaB5g0KPVYEy24OPJQolOP58j1NCfAC1"
+              }
             }
           ]
         }
@@ -70,5 +109,9 @@
       "DatabasesStaticDataObjects": null
     }
   ],
-  "GlobalConfigurations": null
+  "GlobalConfigurations": null,
+  "RepositoryConfiguration": null,
+  "GeneralConfigurations": {
+    "SupportMultiDatabasePerProject": true
+  }
 }
